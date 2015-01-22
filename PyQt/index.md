@@ -30,6 +30,8 @@ http://typea.info/blg/glob/2014/08/python-gui-pyqt.html
 PyQtのサンプル多数  
 http://www.not-enough.org/abe/manual/api-aa09/pyqt1.html
 
+ZetCode(いろいろな言語のチュートリアルが掲載されている)  
+http://zetcode.com/
 
 ## 励みになる資料
 
