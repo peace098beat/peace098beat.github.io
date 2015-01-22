@@ -96,6 +96,8 @@ http://retrofocus28.blogspot.jp/search/label/pyqt
 
 xcodeがなさそう
 
+Xcodeをインストール
+
 
 
 
