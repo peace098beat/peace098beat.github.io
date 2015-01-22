@@ -69,9 +69,14 @@ http://retrofocus28.blogspot.jp/search/label/pyqt
 	# 3. PYTHONPATH の追加
 	export PYTHONPATH=/usr/local/lib/python2.7/site-packages:$PYTHONPATH
 
+	(~/.bashrcへ書き込み)
+	echo export PYTHONPATH=/usr/local/lib/python2.7/site-packages:"$PYTHONPATH" > ~/.bashrc
 
-
-
+	# 4. インストールに成功したかチェック
+	$ python
+	>>> import PyQt5
+	>>> PyQt5
+	>>> <module 'PyQt5' from '/usr/local/lib/python2.7/site-packages/PyQt5/__init__.py'>
 
 
 ## エラー対策
@@ -96,10 +101,27 @@ http://retrofocus28.blogspot.jp/search/label/pyqt
 
 xcodeがなさそう
 
-Xcodeをインストール
+Xcodeをインストール後実行
 
+	brew install pyqt5 --with-python --without-python3
+	==> Downloading https://downloads.sf.net/project/pyqt/PyQt5/PyQt-5.4/PyQt-gpl-5.
+	Already downloaded: /Library/Caches/Homebrew/pyqt5-5.4.tar.gz
+	==> Patching
+	==> python configure.py --confirm-license --bindir=/usr/local/Cellar/pyqt5/5.4/b
+	==> make
+	==> make install
+	==> make clean
+	==> Caveats
+	Python modules have been installed and Homebrew's site-packages is not
+	in your Python sys.path, so you will not be able to import the modules
+	this formula installed. If you plan to develop with these modules,
+	please run:
+	  mkdir -p /Users/noharatomoyuki/Library/Python/2.7/lib/python/site-packages
+	  echo 'import site; site.addsitedir("/usr/local/lib/python2.7/site-packages")' >> /Users/noharatomoyuki/Library/Python/2.7/lib/python/site-packages/homebrew.pth
+	==> Summary
+	🍺  /usr/local/Cellar/pyqt5/5.4: 726 files, 22M, built in 21.6 minutes
 
-
+インストール成功
 
 
 
