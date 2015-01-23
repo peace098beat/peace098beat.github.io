@@ -80,6 +80,9 @@ http://retrofocus28.blogspot.jp/search/label/pyqt
 	>>> PyQt5
 	>>> <module 'PyQt5' from '/usr/local/lib/python2.7/site-packages/PyQt5/__init__.py'>
 
+### py2exe
+http://sourceforge.net/projects/py2exe/files/py2exe/
+
 
 ## エラー対策
 
