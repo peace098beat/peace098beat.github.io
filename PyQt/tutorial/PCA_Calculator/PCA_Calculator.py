@@ -8,11 +8,14 @@ PyQt4 Tutorial
 http://www.slideshare.net/RansuiIso/pyqtgui
 
 Created on Thu Jan 22 14:43:19 2015
-@author: 0160929
+@author: Tomoyuki Nohara
 """
 import sys
 import PyQt4.QtGui as QtGui
 import PyQt4.QtCore as QtCore
+# import PyQt5.QtGui as QtGui
+# import PyQt5.QtCore as QtCore
+
 import random
 import numpy
 
